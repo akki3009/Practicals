@@ -47,10 +47,10 @@ If both integers are not found in the array, for example, 110 and 120, the funct
 
         switch ($number1 | $number2) {
             case $number1 < 0 and $number2 < 0:
-                echo '-1';
+                echo -1;
                 break;
             case $number1 > $number2:
-                echo '0';
+                echo 0;
                 break;
             case (!in_array($number1, data)) and (!in_array($number2, data)):
                 echo '0';
@@ -62,7 +62,7 @@ If both integers are not found in the array, for example, 110 and 120, the funct
                 sum($number1, $number2);
                 break;
             default:
-                echo "Defaault Block Executed";
+                echo "Please Select Number Between Array (10,20,30,40,50,60,70,80,90,100)";
         }
     }
     ?>
